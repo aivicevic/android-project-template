@@ -10,6 +10,7 @@ such as `SharedPreferences` and `Context` while the `domain` module
 consists primarily of simple interface classes that act as a contract
 between the data and UI layers and does not require anything Android
 specific.
+*NOTE:* This is pending an edit as the domain module does in fact need to be an Android Library due to the fact that I often use architecture components (such as LiveData) in the repository files.
 
 This template utilizes the new
 [Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
